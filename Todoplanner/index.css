@@ -1,0 +1,208 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #222;
+  width: 822px;
+  height: 38px;
+}
+.delet,
+.delet-child,
+.delet-wrapper {
+  position: absolute;
+  height: 98;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.delet-child {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.delet,
+.delet-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.delet-wrapper:active,
+.delet:hover {
+  animation: 1s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
+}
+.delet-wrapper {
+  FONT-VARIANT: JIS90;
+  width: 4.62%;
+  left: 95%;
+}
+.this-is-text {
+  font-size: 20px;
+  position: absolute;
+  top: 4px;
+  left: 18px;
+  display: inline-block;
+  font-family: system-ui;
+  width: 663px;
+  height: 23px;
+  text-size-adjust: 10px;
+  color: white;
+}
+.rectangle-parent {
+  position: relative;
+  top: 350px;
+  left: 320px;
+  width: 822px;
+  height: 38px;
+  padding: 5px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 19px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+
+
+
+.header-child {
+  border-top: 2px solid var(--light);
+  box-sizing: border-box;
+  width: 52px;
+  height: 2px;
+  flex-shrink: 0;
+}
+.header-child,
+.to-do-now {
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 65.59px;
+  width: 441.29px;
+  height: 60.04px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.divider1,
+.notepencil-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.divider1 {
+  border-top: 2px solid var(--light);
+  box-sizing: border-box;
+  width: 242px;
+  height: 2px;
+}
+.notepencil-icon {
+  width: 32px;
+  height: 32px;
+}
+.divider {
+  position: absolute;
+  top: 78.57px;
+  left: 0;
+  width: 512.47px;
+  height: 23.72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.heading,
+.texttask-child {
+  position: relative;
+  top: 53px;
+  left: 416.51px;
+  width: 512.47px;
+  height: 102.29px;
+}
+.texttask-child {
+  border: 0;
+  background-color: #d9d9d9;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 826.03px;
+  height: 49.44px;
+  font-size: 21px;
+  text-indent: 20px;
+}
+.add-task,
+.texttask-item {
+  cursor: pointer;
+  position: absolute;
+}
+.texttask-item {
+  border: 0;
+  padding: 0;
+  background-color: #4f4f4f;
+  top: 0;
+  left: 688px;
+  border-radius: var(--br-xl);
+  width: 142.69px;
+  height: 52px;
+  color:#4f4f4f
+}
+.texttask-item:active {
+  animation: 1s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
+}
+.add-task {
+  top: 5.44px;
+  left: 712px;
+  display: inline-block;
+  width: 132.37px;
+  height: 32.53px;
+}
+.texttask {
+  position: absolute;
+  top: 234.56px;
+  left: 306.83px;
+  width: 837.21px;
+  height: 49.44px;
+  font-size: 25px;
+}
+.desktop-2-child {
+  position: absolute;
+  top: 317.94px;
+  left: 249px;
+  width: 966.22px;
+  height: 3.56px;
+}
+.desktop-2 {
+  position: relative;
+  background-color: #2c2c2c;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 53px;
+  color: var(--light);
+  font-family: var(--font-racing-sans-one);
+}
