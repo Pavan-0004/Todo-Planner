@@ -1,6 +1,6 @@
 # Todo-Planner
 
-**Todo-Planner** is a powerful and user-friendly task management application designed to help you organize and prioritize your daily tasks. Built with a modern tech stack, Todo-Planner ensures you stay productive and on top of your to-do list.
+**Todo-Planner** is a powerful and user-friendly task management application designed to help you organize and prioritize your daily tasks. Built with PHP, Todo-Planner ensures you stay productive and on top of your to-do list.
 
 
 ## Features
