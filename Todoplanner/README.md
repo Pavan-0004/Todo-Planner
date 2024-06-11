@@ -1,10 +1,38 @@
+# Todo-Planner
 
-  # todolist
+**Todo-Planner** is a powerful and user-friendly task management application designed to help you organize and prioritize your daily tasks. Built with a modern tech stack, Todo-Planner ensures you stay productive and on top of your to-do list.
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+## Features
+- **Task Management**: Add, edit, and delete tasks.
+- **Categories**: Organize tasks into different categories.
+- **Prioritization**: Set priority levels for tasks.
+- **Due Dates**: Assign due dates to tasks.
+- **Reminders**: Set reminders for upcoming tasks.
+- **Weather Report**: Get the current weather report to help plan your day.
+- **User Authentication**: Secure login and registration.
+- **Responsive Design**: Fully responsive design that works on all devices.
+
+### Prerequisites
+- PHP
+- MySQL
+- phpMyAdmin
+- Apache (or any other web server)
+
+## Usage
+1. Start adding tasks, organizing them into categories, and setting due dates and priorities.
+2. Check the weather report to help plan your tasks according to the weather conditions.
+
+## Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+Pavan - mittapallipavan2004@gmail.com
+
+Project Link: [https://github.com/Pavan-0004/Todo-Planner](https://github.com/Pavan-0004/Todo-Planner)
