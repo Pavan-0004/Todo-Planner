@@ -7,11 +7,8 @@
 - **Task Management**: Add, edit, and delete tasks.
 - **Categories**: Organize tasks into different categories.
 - **Prioritization**: Set priority levels for tasks.
-- **Due Dates**: Assign due dates to tasks.
-- **Reminders**: Set reminders for upcoming tasks.
 - **Weather Report**: Get the current weather report to help plan your day.
-- **User Authentication**: Secure login and registration.
-- **Responsive Design**: Fully responsive design that works on all devices.
+
 
 ### Prerequisites
 - PHP
